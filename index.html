@@ -5,15 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Select Dropdown search</title>
   <!-- icons -->
-  <link rel="stylesheet" href="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==">
+  <!-- <link rel="stylesheet" href="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="> -->
 
   <!-- style css -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
-  <h1>salut</h1>
+  <div class="wrapper">
 
+    <div class="select-btn">
+      <span>Select country</span>
+      <i class="fa-solid fa-chevron-down fa-bounce"></i>
+    </div>
+
+    <div class="content">
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass fa-beat-fade"></i>
+        <input type="text" placeholder="Search for a country...">
+        <ul class="options">
+            <!-- ajouter les pays ici avec un <li> dans le javascript-->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/5a429f7869.js" crossorigin="anonymous"></script>
   <script src="main.js"></script>
 </body>
 </html>
